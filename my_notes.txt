@@ -1,0 +1,233 @@
+    1  echo
+    2  echo $SHELL
+    3  ls - l 
+    4  dir /w
+    5  dir
+    6  pwd
+    7  ls
+    8  pwd
+    9  ls
+   10  ls ~/Documents
+   11  ls ./Documents
+   12  ls /home/bluelady/Documents
+   13  dir
+   14  ls
+   15  ls ..
+   16  ls
+   17  cd /etc
+   18  dir
+   19  ls
+   20  cd ~
+   21  dir
+   22  cd /var/log
+   23  dir
+   24  ls
+   25  cd ~
+   26  ls
+   27  cd /bin
+   28  cd
+   29  cd /bin
+   30  ls
+   31  cd 
+   32  cd /usr/bin
+   33  ls
+   34  cd ../..
+   35  ls
+   36  cd
+   37  man ls -alh
+   38  man -k -alh
+   39  man ls -alh
+   40  pwd
+   41  dir
+   42  ls
+   43  pwd
+   44  ls
+   45  mkdir linuxtutorialwork
+   46  ls
+   47  mkdir -p linuxtutorialwork/foo/bar
+   48  ls
+   49  cd linuxtutorialwork/foo/bar
+   50  pwd
+   51  cd ../../..
+   52  pwd
+   53  mkdir pv linuxtutorialwork/foo/bar
+   54  rmdir linuxtutorialwork/foo/bar
+   55  ls
+   56  ls linuxtutorialwork/foo
+   57  cd ../..
+   58  ls
+   59  cd
+   60  ls
+   61  rmdir linuxtutorialwork/foo/bar
+   62  ls
+   63  ls linuxtutorialwork
+   64  cd 
+   65  ls
+   66  pwd
+   67  cd linuxtutorialwork
+   68  ls
+   69  touch example1
+   70  ls
+   71  cp example1 barney
+   72  ls
+   73  cp foo foo2
+   74  ls
+   75  cp -r foo foo2
+   76  ls
+   77  mkdir backups
+   78  mv foo2 backups/foo3
+   79  mv barney backups/
+   80  ls
+   81  mv foo foo3
+   82  ls
+   83  cd ..
+   84  mkdir linuxtutorialwork/testdir
+   85  ls
+   86  mv linuxtutorialwork/testdir /home/bluelady/linuxtutorialwork/fred
+   87  ls
+   88  cd linuxtutorialwork
+   89  ls
+   90  clear
+   91  ls
+   92  cd 
+   93  pwd
+   94  ls
+   95  cd /c
+   96  ls
+   97  dir
+   98  ls -t
+   99  ls -t -l
+  100  ls -lt
+  101  cd
+  102  ls
+  103  cd linuxtutorialwork
+  104  touch file1
+  105  touch file2
+  106  ls
+  107  ls -lt
+  108  ls -4
+  109  ls -r
+  110  clear
+  111  ls-r
+  112  clear
+  113  ls -r
+  114  ls -ltr
+  115  man ls
+  116  man man
+  117  clear
+  118  man ls
+  119  ls -a
+  120  man ls
+  121  ls --author
+  122  ls -author
+  123  clear
+  124  man ls
+  125  cd
+  126  ls
+  127  pwd
+  128  cd linuxtutorial
+  129  cd linuxtutorialwork
+  130  cd
+  131  clear
+  132  cd /tmp
+  133  ls
+  134  mkdir my\ folder
+  135  ls
+  136  rmdir my\ folder
+  137  mkdir my\folder
+  138  cd my folder
+  139  cd my\ folder
+  140  cd
+  141  cd /tmp
+  142  cd my\ folder
+  143  cd my\folder
+  144  ls
+  145  rmdir my\folder
+  146  mkdir my-folder
+  147  ls
+  148  rmdir my-folder
+  149  cd
+  150  clear
+  151  ls -l
+  152  cd linuxtutorialwork
+  153  pwd
+  154  ls
+  155  cd fred
+  156  ls
+  157  cd ..
+  158  ls
+  159  cd ..
+  160  ls
+  161  cd linuxtutorialwork
+  162  cd fred
+  163  cd ../..
+  164  cd linuxtutorialwork/fred
+  165  cd ../..
+  166  clear
+  167  ls ~
+  168  ls linuxtutorialwork
+  169  ls linuxtutorialwork/foo3
+  170  ls
+  171  ls ../linuxtutorial/foo3
+  172  ls ..
+  173  ls ../bluelady/linuxtutorialwork/foo3
+  174  cd
+  175  ls linuxtutorialwork/
+  176  ls linuxtutorialwork/file
+  177  clear
+  178  ls
+  179  history
+  180  history 10
+  181  history | less
+  182  man less
+  183  history > history.txt
+  184  ls
+  185  rm history.txt
+  186  ls
+  187  history > history.txt
+  188  ls
+  189  mv history.txt linuxtutorial
+  190  ls
+  191  rm linuxtutorial
+  192  history > history.txt
+  193  mv history.txt linuxtutorialwork
+  194  ls
+  195  cd linuxtutorialwork
+  196  ls
+  197  rm history.txt
+  198  'This is a file' > my-file
+  199  echo 'This is a file' > my-file
+  200  ls
+  201  cat my-file
+  202  echo 'This is a file' >> my-file
+  203  ls
+  204  cat my-file
+  205  rm my-file
+  206  rm fred
+  207  rm foo3
+  208  cd ..
+  209  echo 'This is a file' > my-file
+  210  subl my-file
+  211  subl man
+  212  clear
+  213  ls
+  214  rm my-file
+  215  ls
+  216  cd linuxtutorialwork
+  217  ls
+  218  rm file1
+  219  rm file2
+  220  ls
+  221  rm example 1
+  222  rm foo3
+  223  rm -r foo3
+  224  ls
+  225  rm example1
+  226  rm -r fred
+  227  ls
+  228  history | head
+  229  history | head -n 3
+  230  cd ..
+  231  mkdir uge_workshop
+  232  ls
+  233  history > moving_around.txt
